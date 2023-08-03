@@ -1,0 +1,196 @@
+
+div.Menu{                     
+position: fixed;                             /*ajustamos posicion para que se siga viendo aunque hagamos scroll y le damos los valores*/
+top: -10px;
+right: 0px;                    
+height: 40px;
+width: 340px;
+background-color: #524948;
+
+}
+
+.Menu li{
+    list-style: none;                        /*le quitamos los puntos de la lista*/
+   
+ 
+}
+
+.Menu a{
+    text-decoration: none;                     /*le quitmaos el decorado al link*/
+    color: #fff;
+  margin-left: 15px;                    /*le da el espacio entre uno y otro*/
+
+}
+
+.Menu ul{
+    display: flex;                          /*con este display los ponemos todos horizontales a los li*/ 
+    position: fixed;                         /*la posicion fixed es para que se siga viendo aunque bajemos la pagina*/  
+    right: 15px;
+    
+}
+
+.Menu a:hover{
+ background-color: #BCAA99;
+ font-size: 20px;                               /*tamaño de la letra*/
+ text-shadow: 2px 2px 5px red;                 /*sombras de la letra*/
+}
+
+.imagen{   
+    height: 950px;
+    width: 1865px;
+    margin-left: -0.5%;                                       /*centramos la imagen de fondo de la izquiera*/
+    margin-top: -0.5%;                                         /*centramos la imagen de arriba*/
+    background-image: url(52594-programacion.jpg);
+}
+
+
+.texto{  
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 250px;
+    backdrop-filter: blur(10px);
+
+}
+.texto h2{
+    font-size: 35px;
+}
+
+.texto h1{
+    font-size: 50px;
+    color: rgb(85, 85, 255);
+}
+.texto img{
+    margin-left: -40%;
+    border-radius: 50%;                                      /*hacemos la imagen circular*/
+    height: 250px;
+    width: 250px;                    
+    
+}
+
+.presentación{
+    margin-top: -13.9%;               /*centramos verticalmente el texto*/ 
+    
+}
+
+#sobre_mi{
+    height: 400px;
+    width: 600px;
+margin-left: 140px;
+margin-top: 20%;
+
+}
+
+#sobre_mi p{
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+#sobre_mi h2{
+    font-size: 25px;
+}
+
+#sobre_mi h1{
+    font-size: 40px;
+}
+
+.habilidades{
+text-align: center;
+ width: 700px;
+ margin: -23% 60%;
+}
+.habilidades img{
+    height: 200px;
+margin-left: 10%;
+}
+.java{
+    margin-right: 10%;
+}
+
+#Experiencia{
+    margin-top: 30%;
+    margin-left: 140px;
+
+}
+#Experiencia img{
+    height: 400px;
+    margin-left: 15%;
+}
+
+#Experiencia p{
+text-align: justify;
+font-size: 20px;
+margin: 2% 27% 0% 15%;
+text-indent: 30px;
+border: 3px solid red;
+}
+
+#Educación{
+    margin-top: 10%;
+}
+#Educación img{
+margin-left: 15%;
+}
+#Educación h1{
+    margin-left: 140px;
+}
+
+#Educación h2{
+    font-size: 17px;
+}
+
+#Educación p{
+    text-align: justify;
+    text-indent: 30px;
+    border: 3px solid red;
+}
+#Educación p.jap{
+    margin: 2% 55% 0% 10%;
+    
+
+}
+#Educación p.licenciatura{
+    margin: -13.6% 15% 0% 50%;
+  
+}
+#Educación h2{
+    margin-left: 10%;
+}
+#Educación h2.licenciatura{
+    margin: 2.2% 10% 0% 50%;
+}
+#Educación h2.lic{
+    margin-left: 65%;
+    margin-top: -2.2%;
+}
+#Educación h2.Jap{
+    margin-left: 24%;
+}
+
+#Contacto{
+    margin-left: 140px;
+    margin-top: 10%;
+}
+#Contacto img{
+height: 50px;
+margin-left: 20%;
+}
+
+#Contacto a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 18.5%;
+}
+.insta{
+    margin-left: 32%;
+    margin-top: -2.5%;
+}
+.Github{
+    margin-left: 64.4%;
+    margin-top: -2.4%; 
+}
+
