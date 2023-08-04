@@ -126,7 +126,7 @@ text-align: justify;
 font-size: 20px;
 margin: 2% 27% 0% 15%;
 text-indent: 30px;
-border: 3px solid red;
+
 }
 
 #Educación{
@@ -146,7 +146,7 @@ margin-left: 15%;
 #Educación p{
     text-align: justify;
     text-indent: 30px;
-    border: 3px solid red;
+    
 }
 #Educación p.jap{
     margin: 2% 55% 0% 10%;
