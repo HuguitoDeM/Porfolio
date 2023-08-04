@@ -6,7 +6,7 @@ right: 0px;
 height: 40px;
 width: 340px;
 background-color: #524948;
-
+z-index: 9999;
 }
 
 .Menu li{
